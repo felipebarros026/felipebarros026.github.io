@@ -118,16 +118,6 @@ p {
     flex: 1;
 }
 
-.link_email {
-    color: rgb(var(--azul_marinho));
-    font-weight: bold;
-}
-
-.link_email:hover {
-    text-decoration: underline;
-    text-underline-offset: 3pt;
-}
-
 .lista_projetos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -169,8 +159,9 @@ p {
     border-radius: 20px;
 }
 
-link_email,
-.link_projeto {
+.link_email,
+.link_projeto,
+.link_github{
     color: rgb(var(--azul_marinho));
     font-weight: bold;
     text-decoration: underline;
@@ -178,7 +169,8 @@ link_email,
 }
 
 .link_email:hover,
-.link_projeto:hover {
+.link_projeto:hover,
+.link_github:hover{
     color: rgb(var(--destaque));
 }
 
