@@ -1,18 +1,18 @@
-# Portfólio | Felipe Loureiro de Barros
+# Portfolio | Felipe Loureiro de Barros
 
-Código-fonte do meu portfólio pessoal, onde me apresento, conto um pouco sobre mim e vou reunir os projetos que desenvolver ao longo da minha formação.
+Source code for my personal portfolio, where I introduce myself, tell a bit about me, and will gather the projects I develop throughout my studies.
 
-**Site:** [felipebarros026.github.io](https://felipebarros026.github.io/)
+**Website:** [felipebarros026.github.io](https://felipebarros026.github.io/)
 
-## Tecnologias
+## Technologies
 - HTML
 - CSS
-- GitHub Pages (hospedagem)
+- GitHub Pages (hosting)
 
-## Estrutura
-- `index.html`: página principal
-- `portfolio.css`: estilos do site
-- `minha_foto.jpeg`: foto do cabeçalho
+## Structure
+- `index.html`: main page
+- `portfolio.css`: site styles
+- `minha_foto.jpeg`: header photo
 
-## Contato
-Pelo [formulário de contato do site](https://felipebarros026.github.io/#contato).
+## Contact
+Through the [contact section of the website](https://felipebarros026.github.io/#contato).
