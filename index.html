@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -7,12 +7,21 @@
     <title>Felipe Loureiro de Barros | Portfólio</title>
     <meta name="description"
         content="Portfólio de Felipe Loureiro de Barros, estudante de Técnico em Informática no Senac Santa Teresa. Projetos de desenvolvimento web e contato.">
+    <!--Abaixo, tem as configurações para compartilhamento no WhatsApp, Facebook e LinkedIn-->
+    <meta property="og:title" content="Felipe Loureiro de Barros | Portfólio">
+    <meta property="og:description"
+        content="Estudante de Técnico em Informática e desenvolvimento web. Conheça meus projetos e entre em contato.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://felipebarros026.github.io/">
+    <meta property="og:image" content="https://felipebarros026.github.io/minha_foto.jpeg">
+    <meta property="og:image:alt" content="Foto de Felipe Loureiro de Barros">
+    <meta property="og:locale" content="pt_BR">
     <link href="portfolio.css" rel="stylesheet"> <!--CSS do portfólio-->
 </head>
 
 <body>
-    <div class="cor_de_fundo">
-        <nav class="botao_topo">
+    <header class="cor_de_fundo">
+        <nav class="botao_topo" aria-label="Menu Principal">
             <a href="#sobre_mim" class="botao_ancora">Sobre Mim</a>
             <a href="#projetos" class="botao_ancora">Projetos</a>
             <a href="#contato" class="botao_ancora">Contato</a>
@@ -20,35 +29,34 @@
         <div class="apresentacao">
             <div class="texto_topo">
                 <h1 class="meu_nome">Felipe Loureiro de Barros</h1>
-                <p class="funcao">Estudante do Técnico em Informática | Desenvolvimento Web</p>
+                <p class="funcao">Estudante de Técnico em Informática | Desenvolvimento Web</p>
                 <p class="cabecalho">Crio sites e estou sempre aprendendo algo novo na área de tecnologia. Conheça um
                     pouco da minha história e dos meus projetos.</p>
             </div>
             <img src="minha_foto.jpeg" alt="Foto de Felipe Loureiro de Barros" class="minha_foto">
         </div>
-    </div>
+    </header>
 
-    <div class="texto1">
-        <div class="corpo">
-            <h2 id="sobre_mim">Sobre Mim</h2>
-            <p>Me chamo Felipe e curso Técnico em Informática no Senac Santa Teresa. No curso, venho aprendendo desde
-                conceitos básicos de computação até o desenvolvimento de sites e aplicativos.</p>
-            <p>Estou aberto a parcerias e projetos, como desenvolvimento de sites, planilhas no Excel e outras soluções.
-            </p>
+    <main>
+        <section class="texto1">
+            <div class="corpo">
+                <h2 id="sobre_mim">Sobre Mim</h2>
+                <p>Meu nome é Felipe e curso Técnico em Informática no Senac Santa Teresa. No curso, venho aprendendo desde a montagem e formatação de computadores e noções de redes até tecnologias web, como HTML5 e CSS.</p>
+                <p>Estou aberto a trabalhos freelance e parcerias, de projetos rápidos a projetos maiores, como criação de sites e planilhas no Excel. Se tiver uma ideia, fale comigo pelo contato abaixo.</p>
 
-        </div>
-    </div>
+            </div>
+        </section>
 
-    <div class="texto2">
-        <div class="corpo">
-            <h2 id="projetos">Projetos</h2>
-            <p>Alguns dos meus trabalhos em desenvolvimento web.</p>
-            <!-- Felipe do futuro, lembre disso também: o parágrafo abaixo é temporário, enquanto não possui nenhum projeto. Lembre de apagar este parágrafo quando entrar o primeiro projeto -->
-            <p>Meus primeiros projetos estão a caminho.</p>
+        <section class="texto2">
+            <div class="corpo">
+                <h2 id="projetos">Projetos</h2>
+                <p>Alguns dos meus trabalhos em desenvolvimento web.</p>
+                <!-- Felipe do futuro, lembre disso também: o parágrafo abaixo é temporário, enquanto não possui nenhum projeto. Lembre de apagar este parágrafo quando entrar o primeiro projeto -->
+                <p>Meus primeiros projetos estão a caminho.</p>
 
-            <div class="lista_projetos">
-                <!--Usuário, leia atentamente isso: Todo esse article comentado serve como copia e cola para os projetos que você for adicionar futuramente. Consiste no seguinte: Adiciona o nome do projeto, descreve brevemente o que ele é ou o que ele faz, escreve as tecnologias que você utilizou(HTML, CSS, entre outros) e, no final, o link do projeto. Lembrete: para adicionar um projeto novo, só deve duplicar o article, que está abaixo, modificando as informações. Não precisa mexer no css-->
-                <!--   <article class="cartao_projeto">
+                <div class="lista_projetos">
+                    <!--Felipe do futuro, leia atentamente isso: A partir de agora, todo esse article serve como ctrl c ctrl v para os projetos que você for adicionar. Consiste no seguinte: Adiciona o nome do projeto, descreve brevemente o que ele é ou o que ele faz, em coisa de uma, duas linhas, escreve a tecnologia que você utilizou e, no final, o link do projeto. Lembrete: para adicionar um projeto novo, só deve duplicar o article, que está abaixo, modificando as informações. Não precisa mexer no css-->
+                    <!--   <article class="cartao_projeto">
                 <h3>Nome do projeto</h3>
                 <p>Uma ou duas frases dizendo o que é o projeto e o que ele faz</p>
                 <ul class="tecnologias">
@@ -57,22 +65,23 @@
                 </ul>
                 <a href="#" class="link_projeto" target="_blank" rel="noopener noreferrer">Ver projeto</a>
             </article>   -->
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <div class="texto1">
-        <div class="corpo">
-            <h2 id="contato">Contato</h2>
-            <p>Caso você tenha se interessado, entre em contato pelo e-mail
-                <a href="mailto:felipe.lbarros026@gmail.com" class="link_email">felipe.lbarros026@gmail.com</a>
-            </p>
-            <p>Você também pode ver meus códigos no GitHub:
-                <a href="https://github.com/felipebarros026" class="link_github" target="_blank"
-                    rel="noopener noreferrer">github.com/felipebarros026</a>
-            </p>
-        </div>
-    </div>
+        <section class="texto1">
+            <div class="corpo">
+                <h2 id="contato">Contato</h2>
+                <p>Gostou do meu trabalho? Fale comigo pelo e-mail
+                    <a href="mailto:felipe.lbarros026@gmail.com" class="link_email">felipe.lbarros026@gmail.com</a>
+                </p>
+                <p>Você também pode ver meus códigos no GitHub:
+                    <a href="https://github.com/felipebarros026" class="link_github" target="_blank"
+                        rel="noopener noreferrer">github.com/felipebarros026</a>
+                </p>
+            </div>
+        </section>
+    </main>
     <footer class="rodape">
         <p>© 2026 Felipe Loureiro de Barros</p>
     </footer>
